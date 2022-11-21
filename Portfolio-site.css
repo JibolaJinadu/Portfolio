@@ -1,0 +1,119 @@
+.container{
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.layout{
+    padding:10px 13px 0px;
+    width: 810px;
+    height: 760px;
+    background-image: linear-gradient(to right, rgb(205, 230, 236), rgb(250, 140, 181));
+}
+.main{
+    background-color:rgb(237, 239, 241) ;
+    width: 780px;
+    height: 750px;
+    Margin: 0px auto 0px;
+    border:1px solid none;
+    border-radius: 9px;
+    position: relative;
+    bottom: -9px;
+    right: -10px;
+}
+.header{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 100px;
+    font-family: calibri;
+    font-size:x-small;
+    font-weight: bold;
+    color:black;
+}
+.name{
+    margin-left: 55px;
+}
+.reach{
+    display: flex;
+    margin-right: 15px;   
+}
+li{
+    list-style-type: none;
+    margin-left:0px;
+    padding-right:8px;
+    color:black;
+}
+a{
+    text-decoration: none;
+}
+button{
+    color: white;
+    background-color: black;
+    padding: 5px 13px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: smaller;
+}
+.statement{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-left: 40px;
+}
+.image-background{
+    width: 200px;
+    height: 160px;
+    background-image: linear-gradient(to right, rgb(205, 230, 236), rgb(247, 189, 181));
+    border: 0px solid;
+    position: relative;
+    outline: none;
+}
+.image{
+    background-color: none;
+    outline: none;
+    position:absolute;
+    left:18px;
+    bottom: -5px;
+}
+.intro{
+    width: 340px;
+    margin-right: 110px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 0px 0px 50px;
+}
+span{
+    opacity:0.5;
+}
+.details{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 20px 10px 0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.About-me{
+    width:310px;
+    margin-left: 40px;
+}
+.Aboutme-content{
+    font-size:small;
+    opacity: 0.5;
+    line-height: 1.5;
+}
+.skillset{
+    font-size:xx-small;
+    color: black;
+    font-weight:800;
+    margin-right:40px;
+}
+span li{
+    margin: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    border-radius: 5px;
+    padding: 4px;
+    color:black;
+}
+.skills{
+    display: flex;
+}
